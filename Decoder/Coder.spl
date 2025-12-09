@@ -1,0 +1,5 @@
+[Inputs]
+=sw[7:0]=
+[Outputs]
+=led[2:0]=
+[BiDir]

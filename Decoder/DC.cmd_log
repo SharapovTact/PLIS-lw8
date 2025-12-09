@@ -1,0 +1,2 @@
+vhdtdtfi -lib work DC.vhd -prj Decoder -o DC.spl -module DC -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 DC.spl D:/Study/PLIS/PLIS-lw8/Decoder/DC.sym 
