@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Study/PLIS/PLIS-lw8/Coder/Test_Coder_isim_beh.exe" -prj "D:/Study/PLIS/PLIS-lw8/Coder/Test_Coder_beh.prj" "work.Test_Coder" 

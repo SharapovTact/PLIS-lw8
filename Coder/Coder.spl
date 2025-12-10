@@ -1,0 +1,5 @@
+[Inputs]
+=x[7:0]=
+[Outputs]
+=y[2:0]=
+[BiDir]
