@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="Demultiplexer">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2025-12-13T5:22:8</timestamp>
+    <timestamp>2025-12-13T5:41:15</timestamp>
     <pin polarity="Input" x="0" y="-96" name="Y" />
     <pin polarity="Input" x="0" y="-32" name="X(2:0)" />
     <pin polarity="Output" x="384" y="-96" name="S(7:0)" />

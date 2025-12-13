@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : scheme.vf
+// /___/   /\     Timestamp : 12/13/2025 08:41:42
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog D:/Study/PLIS/PLIS-lw8/Demultiplexer/scheme.vf -w D:/Study/PLIS/PLIS-lw8/Demultiplexer/scheme.sch
+//Design Name: scheme
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module scheme(X, 
+              Y, 
+              S);
+
+    input [2:0] X;
+    input Y;
+   output [7:0] S;
+   
+   
+   Demultiplexer  XLXI_4 (.X(X[2:0]), 
+                         .Y(Y), 
+                         .S(S[7:0]));
+endmodule
