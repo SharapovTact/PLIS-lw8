@@ -1,0 +1,28 @@
+Command line:
+   Multipexer_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63555
+
+Sat Dec 13 07:25:27 2025
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5154.56 Meg
+
+ Total Signals          : 6
+ Total Nets             : 12
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 372
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 4682.7 Meg
+
+Sat Dec 13 08:21:33 2025
+

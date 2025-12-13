@@ -1,0 +1,14 @@
+NET "sw<2>" LOC="C4";
+NET "sw<1>" LOC="B8";
+NET "sw<0>" LOC="D9";
+
+NET "led" LOC="U16";
+
+NET "sig<7>" LOC="T5";
+NET "sig<6>" LOC="V8";
+NET "sig<5>" LOC="U8";
+NET "sig<4>" LOC="N8";
+NET "sig<3>" LOC="M8";
+NET "sig<2>" LOC="V9";
+NET "sig<1>" LOC="T9";
+NET "sig<0>" LOC="T10";

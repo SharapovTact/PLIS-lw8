@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Study/PLIS/PLIS-lw8/Multiplexer/Multipexer_test_isim_beh.exe" -prj "D:/Study/PLIS/PLIS-lw8/Multiplexer/Multipexer_test_beh.prj" "work.Multipexer_test" 

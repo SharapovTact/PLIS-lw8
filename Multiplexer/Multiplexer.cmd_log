@@ -1,0 +1,9 @@
+vhdtdtfi -lib work Multiplexer.vhd -prj Multiplexer -o Multiplexer.spl -module Multiplexer -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Multiplexer.spl D:/Study/PLIS/PLIS-lw8/Multiplexer/Multiplexer.sym 
+vhdtdtfi -lib work Multiplexer.vhd -prj Multiplexer -o Multiplexer.spl -module Multiplexer -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Multiplexer.spl D:/Study/PLIS/PLIS-lw8/Multiplexer/Multiplexer.sym 
+xst -intstyle ise -ifn "D:/Study/PLIS/PLIS-lw8/Multiplexer/Multiplexer.xst" -ofn "D:/Study/PLIS/PLIS-lw8/Multiplexer/Multiplexer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplexer.ngc Multiplexer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplexer_map.ncd Multiplexer.ngd Multiplexer.pcf 
+par -w -intstyle ise -ol high -mt off Multiplexer_map.ncd Multiplexer.ncd Multiplexer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplexer.twx Multiplexer.ncd -o Multiplexer.twr Multiplexer.pcf 
