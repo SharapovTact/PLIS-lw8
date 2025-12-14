@@ -1,0 +1,2 @@
+vhdl work "Decoder_SevenSeg.vhd"
+verilog work "scheme.vf"

@@ -1,0 +1,3 @@
+MODULE scheme
+	SUBMODULE Decoder_SevenSeg
+		INSTANCE XLXI_2

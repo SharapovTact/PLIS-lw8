@@ -1,0 +1,60 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : scheme.vf
+// /___/   /\     Timestamp : 12/14/2025 09:41:43
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog D:/Study/PLIS/PLIS-lw8/Carno/scheme.vf -w D:/Study/PLIS/PLIS-lw8/Carno/scheme.sch
+//Design Name: scheme
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module scheme(x, 
+              F);
+
+    input [3:0] x;
+   output F;
+   
+   wire XLXN_45;
+   wire XLXN_46;
+   wire XLXN_49;
+   wire XLXN_52;
+   wire XLXN_53;
+   wire XLXN_54;
+   
+   AND2B1  XLXI_22 (.I0(x[3]), 
+                   .I1(x[2]), 
+                   .O(XLXN_45));
+   AND2  XLXI_23 (.I0(XLXN_46), 
+                 .I1(XLXN_45), 
+                 .O(XLXN_49));
+   OR2B2  XLXI_24 (.I0(x[0]), 
+                  .I1(x[1]), 
+                  .O(XLXN_46));
+   OR4  XLXI_25 (.I0(XLXN_54), 
+                .I1(XLXN_53), 
+                .I2(XLXN_52), 
+                .I3(XLXN_49), 
+                .O(F));
+   AND2B2  XLXI_26 (.I0(x[0]), 
+                   .I1(x[1]), 
+                   .O(XLXN_52));
+   AND2  XLXI_27 (.I0(x[3]), 
+                 .I1(x[1]), 
+                 .O(XLXN_53));
+   AND3B2  XLXI_28 (.I0(x[1]), 
+                   .I1(x[2]), 
+                   .I2(x[3]), 
+                   .O(XLXN_54));
+endmodule

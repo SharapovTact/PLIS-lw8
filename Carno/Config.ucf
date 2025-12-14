@@ -1,0 +1,6 @@
+NET "x<0>" LOC="T10";
+NET "x<1>" LOC="T9";
+NET "x<2>" LOC="V9";
+NET "x<3>" LOC="M8";
+
+NET "F" LOC="U16";

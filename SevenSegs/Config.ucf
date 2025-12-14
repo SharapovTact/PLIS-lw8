@@ -1,0 +1,13 @@
+NET "y<0>" LOC="T10";
+NET "y<1>" LOC="T9";
+NET "y<2>" LOC="V9";
+NET "y<3>" LOC="M8";
+
+NET "x<0>" LOC="U16";
+NET "x<1>" LOC="V16";
+NET "x<2>" LOC="U15";
+NET "x<3>" LOC="V15";
+NET "x<4>" LOC="M11";
+NET "x<5>" LOC="N11";
+NET "x<6>" LOC="R11";
+NET "x<7>" LOC="T11";
