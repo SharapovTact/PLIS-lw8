@@ -42,24 +42,24 @@ begin
 	begin
 		case(DIGIT) is
 									 --ABCDEFGP
-			when "0000" => PINOUT <= "11111100";--0
-			when "0001" => PINOUT <= "01100000";
-			when "0010" => PINOUT <= "11011010";
-			when "0011" => PINOUT <= "11110010";
-			when "0100" => PINOUT <= "01100110";
-			when "0101" => PINOUT <= "10110110";
-			when "0110" => PINOUT <= "10111110";
-			when "0111" => PINOUT <= "11100000";--7
+			when "0000" => PINOUT <= not("11111100");--0
+			when "0001" => PINOUT <= not("01100000");
+			when "0010" => PINOUT <= not("11011010");
+			when "0011" => PINOUT <= not("11110010");
+			when "0100" => PINOUT <= not("01100110");
+			when "0101" => PINOUT <= not("10110110");
+			when "0110" => PINOUT <= not("10111110");
+			when "0111" => PINOUT <= not("11100000");--7
 									 --ABCDEFGP
-			when "1000" => PINOUT <= "11111110";--8
-			when "1001" => PINOUT <= "11110110";
-			when "1010" => PINOUT <= "11101110";
-			when "1011" => PINOUT <= "00111110";
-			when "1100" => PINOUT <= "10011100";
-			when "1101" => PINOUT <= "01111010";
-			when "1110" => PINOUT <= "10011110";
-			when "1111" => PINOUT <= "10001110";--F
-			when others => PINOUT <= "00000000";
+			when "1000" => PINOUT <= not("11111110");--8
+			when "1001" => PINOUT <= not("11110110");
+			when "1010" => PINOUT <= not("11101110");
+			when "1011" => PINOUT <= not("00111110");
+			when "1100" => PINOUT <= not("10011100");
+			when "1101" => PINOUT <= not("01111010");
+			when "1110" => PINOUT <= not("10011100");
+			when "1111" => PINOUT <= not("11101100");--F
+			when others => PINOUT <= not("00000000");
 		end case;
 	end process;
 end Behavioral;

@@ -40,11 +40,11 @@ begin
 	process(DIGIT) 
 	begin
 		case(DIGIT) is
-			when "00" => ANOD <= "0001";
-			when "01" => ANOD <= "0010";
-			when "10" => ANOD <= "0100";
-			when "11" => ANOD <= "1000";
-			when others => ANOD <= "0000";
+			when "00" => ANOD <= not("0001");
+			when "01" => ANOD <= not("0010");
+			when "10" => ANOD <= not("0100");
+			when "11" => ANOD <= not("1000");
+			when others => ANOD <= not("0000");
 		end case;
 	end process;
 

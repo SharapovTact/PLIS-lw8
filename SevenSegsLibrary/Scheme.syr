@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: Scheme.prj
@@ -479,8 +479,8 @@ Offset:              6.244ns (Levels of Logic = 3)
     ----------------------------------------  ------------
      FDE:C->Q             10   0.447   1.221  XLXI_11/sig_0 (XLXI_11/sig_0)
      LUT6:I0->O            7   0.203   1.021  XLXI_3/Mmux_OUT_NUM11 (XLXN_2<0>)
-     LUT4:I0->O            1   0.203   0.579  XLXI_5/Mram_PINOUT21 (C_2_OBUF)
-     OBUF:I->O                 2.571          C_2_OBUF (C<2>)
+     LUT4:I0->O            1   0.203   0.579  XLXI_5/Mram_PINOUT31 (C_3_OBUF)
+     OBUF:I->O                 2.571          C_3_OBUF (C<3>)
     ----------------------------------------
     Total                      6.244ns (3.424ns logic, 2.820ns route)
                                        (54.8% logic, 45.2% route)
@@ -490,18 +490,18 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'ENABLE'
   Total number of paths / destination ports: 112 / 7
 -------------------------------------------------------------------------
 Offset:              5.901ns (Levels of Logic = 3)
-  Source:            XLXI_8/NUM_1_1 (LATCH)
+  Source:            XLXI_8/NUM_1_0 (LATCH)
   Destination:       C<7> (PAD)
   Source Clock:      ENABLE falling
 
-  Data Path: XLXI_8/NUM_1_1 to C<7>
+  Data Path: XLXI_8/NUM_1_0 to C<7>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LDE:G->Q              1   0.498   0.827  XLXI_8/NUM_1_1 (XLXI_8/NUM_1_1)
-     LUT6:I2->O            7   0.203   1.021  XLXI_3/Mmux_OUT_NUM21 (XLXN_2<1>)
-     LUT4:I0->O            1   0.203   0.579  XLXI_5/Mram_PINOUT61 (C_6_OBUF)
-     OBUF:I->O                 2.571          C_6_OBUF (C<6>)
+     LDE:G->Q              1   0.498   0.827  XLXI_8/NUM_1_0 (XLXI_8/NUM_1_0)
+     LUT6:I2->O            7   0.203   1.021  XLXI_3/Mmux_OUT_NUM11 (XLXN_2<0>)
+     LUT4:I0->O            1   0.203   0.579  XLXI_5/Mram_PINOUT31 (C_3_OBUF)
+     OBUF:I->O                 2.571          C_3_OBUF (C<3>)
     ----------------------------------------
     Total                      5.901ns (3.475ns logic, 2.426ns route)
                                        (58.9% logic, 41.1% route)
@@ -522,12 +522,12 @@ Oxyllirator    |    4.197|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.64 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.81 secs
  
 --> 
 
-Total memory usage is 4501252 kilobytes
+Total memory usage is 4502020 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   16 (   0 filtered)

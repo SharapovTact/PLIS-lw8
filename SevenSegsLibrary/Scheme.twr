@@ -37,11 +37,11 @@ Setup/Hold to clock ENABLE
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-DIGIT<0>    |   -0.184(F)|      FAST  |    1.928(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
-DIGIT<1>    |   -0.297(F)|      FAST  |    2.244(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
-NUMBER<0>   |   -1.052(F)|      FAST  |    2.753(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
-NUMBER<1>   |   -0.828(F)|      FAST  |    2.402(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
-NUMBER<2>   |   -0.958(F)|      FAST  |    2.648(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
+DIGIT<0>    |   -0.015(F)|      FAST  |    1.929(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
+DIGIT<1>    |   -0.264(F)|      FAST  |    2.243(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
+NUMBER<0>   |   -1.007(F)|      FAST  |    2.724(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
+NUMBER<1>   |   -0.735(F)|      FAST  |    2.415(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
+NUMBER<2>   |   -0.929(F)|      FAST  |    2.647(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
 NUMBER<3>   |   -0.714(F)|      FAST  |    2.517(F)|      SLOW  |ENABLE_BUFGP      |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
@@ -50,13 +50,13 @@ Clock ENABLE to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-C<1>        |        12.017(F)|      SLOW  |         6.385(F)|      FAST  |ENABLE_BUFGP      |   0.000|
-C<2>        |        12.451(F)|      SLOW  |         6.479(F)|      FAST  |ENABLE_BUFGP      |   0.000|
-C<3>        |        12.619(F)|      SLOW  |         6.627(F)|      FAST  |ENABLE_BUFGP      |   0.000|
-C<4>        |        12.493(F)|      SLOW  |         6.530(F)|      FAST  |ENABLE_BUFGP      |   0.000|
-C<5>        |        12.092(F)|      SLOW  |         6.400(F)|      FAST  |ENABLE_BUFGP      |   0.000|
-C<6>        |        11.698(F)|      SLOW  |         6.095(F)|      FAST  |ENABLE_BUFGP      |   0.000|
-C<7>        |        12.364(F)|      SLOW  |         6.423(F)|      FAST  |ENABLE_BUFGP      |   0.000|
+C<1>        |        12.741(F)|      SLOW  |         6.629(F)|      FAST  |ENABLE_BUFGP      |   0.000|
+C<2>        |        12.147(F)|      SLOW  |         6.250(F)|      FAST  |ENABLE_BUFGP      |   0.000|
+C<3>        |        12.116(F)|      SLOW  |         6.284(F)|      FAST  |ENABLE_BUFGP      |   0.000|
+C<4>        |        12.816(F)|      SLOW  |         6.531(F)|      FAST  |ENABLE_BUFGP      |   0.000|
+C<5>        |        12.416(F)|      SLOW  |         6.399(F)|      FAST  |ENABLE_BUFGP      |   0.000|
+C<6>        |        12.604(F)|      SLOW  |         6.367(F)|      FAST  |ENABLE_BUFGP      |   0.000|
+C<7>        |        12.461(F)|      SLOW  |         6.491(F)|      FAST  |ENABLE_BUFGP      |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock Oxyllirator to Pad
@@ -64,17 +64,17 @@ Clock Oxyllirator to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-ANOD<0>     |         8.423(R)|      SLOW  |         4.313(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-ANOD<1>     |         8.456(R)|      SLOW  |         4.329(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-ANOD<2>     |         8.292(R)|      SLOW  |         4.191(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-ANOD<3>     |         8.325(R)|      SLOW  |         4.207(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<1>        |         9.904(R)|      SLOW  |         5.051(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<2>        |        10.303(R)|      SLOW  |         5.145(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<3>        |        10.551(R)|      SLOW  |         5.233(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<4>        |        10.425(R)|      SLOW  |         5.136(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<5>        |         9.979(R)|      SLOW  |         5.066(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<6>        |         9.630(R)|      SLOW  |         4.732(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<7>        |        10.216(R)|      SLOW  |         5.089(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+ANOD<0>     |         8.420(R)|      SLOW  |         4.313(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+ANOD<1>     |         8.453(R)|      SLOW  |         4.329(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+ANOD<2>     |         8.290(R)|      SLOW  |         4.191(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+ANOD<3>     |         8.323(R)|      SLOW  |         4.207(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<1>        |        10.468(R)|      SLOW  |         5.166(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<2>        |         9.807(R)|      SLOW  |         4.826(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<3>        |         9.941(R)|      SLOW  |         4.728(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<4>        |        10.543(R)|      SLOW  |         4.975(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<5>        |        10.076(R)|      SLOW  |         4.975(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<6>        |        10.331(R)|      SLOW  |         4.811(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<7>        |        10.188(R)|      SLOW  |         5.028(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock Oxyllirator
@@ -82,11 +82,11 @@ Clock to Setup on destination clock Oxyllirator
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Oxyllirator    |    3.829|         |         |         |
+Oxyllirator    |    3.711|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Mon Dec 15 15:13:50 2025 
+Analysis completed Mon Dec 15 15:38:14 2025 
 --------------------------------------------------------------------------------
 
 Trace Settings:
