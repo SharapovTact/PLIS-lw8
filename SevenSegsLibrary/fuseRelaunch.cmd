@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "D:/Study/PLIS/PLIS-lw8/SevenSegsLibrary/Divider_test_isim_beh.exe" -prj "D:/Study/PLIS/PLIS-lw8/SevenSegsLibrary/Divider_test_beh.prj" "work.Divider_test" 
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Study/PLIS/PLIS-lw8/SevenSegsLibrary/Interchange_test_isim_beh.exe" -prj "D:/Study/PLIS/PLIS-lw8/SevenSegsLibrary/Interchange_test_beh.prj" "work.Interchange_test" 

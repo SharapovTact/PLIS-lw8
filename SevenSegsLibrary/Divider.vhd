@@ -21,8 +21,8 @@ begin
 				counter := counter + 1;
 			end if;
 		end if;
-		Q <= sig;
+		
 	end process;
-
+	Q <= sig;
 end Behavioral;
 
