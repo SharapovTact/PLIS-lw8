@@ -64,17 +64,17 @@ Clock Oxyllirator to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-ANOD<0>     |         8.420(R)|      SLOW  |         4.313(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-ANOD<1>     |         8.453(R)|      SLOW  |         4.329(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-ANOD<2>     |         8.290(R)|      SLOW  |         4.191(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-ANOD<3>     |         8.323(R)|      SLOW  |         4.207(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<1>        |        10.468(R)|      SLOW  |         5.166(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<2>        |         9.807(R)|      SLOW  |         4.826(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<3>        |         9.941(R)|      SLOW  |         4.728(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<4>        |        10.543(R)|      SLOW  |         4.975(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<5>        |        10.076(R)|      SLOW  |         4.975(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<6>        |        10.331(R)|      SLOW  |         4.811(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
-C<7>        |        10.188(R)|      SLOW  |         5.028(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+ANOD<0>     |         8.414(R)|      SLOW  |         4.313(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+ANOD<1>     |         8.447(R)|      SLOW  |         4.329(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+ANOD<2>     |         8.283(R)|      SLOW  |         4.191(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+ANOD<3>     |         8.316(R)|      SLOW  |         4.207(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<1>        |        10.468(R)|      SLOW  |         5.160(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<2>        |         9.807(R)|      SLOW  |         4.820(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<3>        |         9.941(R)|      SLOW  |         4.722(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<4>        |        10.543(R)|      SLOW  |         4.969(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<5>        |        10.076(R)|      SLOW  |         4.969(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<6>        |        10.331(R)|      SLOW  |         4.805(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
+C<7>        |        10.188(R)|      SLOW  |         5.022(R)|      FAST  |Oxyllirator_BUFGP |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock Oxyllirator
@@ -82,11 +82,11 @@ Clock to Setup on destination clock Oxyllirator
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Oxyllirator    |    3.711|         |         |         |
+Oxyllirator    |    3.724|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Mon Dec 15 15:38:14 2025 
+Analysis completed Mon Dec 15 18:36:48 2025 
 --------------------------------------------------------------------------------
 
 Trace Settings:

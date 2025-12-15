@@ -14,7 +14,7 @@ begin
 	variable counter : integer := 0;
 	begin
 		if (V10'event and V10 = '1') then
-			if (counter = 4000) then 
+			if (counter = 400000) then 
 				counter := 0;
 				sig <= sig + '1';
 			else

@@ -10,7 +10,7 @@ Target Device  : xc6slx16
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Mon Dec 15 15:38:02 2025
+Mapped Date    : Mon Dec 15 18:36:36 2025
 
 Mapping design into LUTs...
 Running directed packing...
@@ -47,36 +47,36 @@ WARNING:Place:1109 - A clock IOB / BUFGMUX clock component pair have been found
    lead to very poor timing results. It is recommended that this error condition
    be corrected in the design.
 Phase 4.2  Initial Placement for Architecture Specific Features
-(Checksum:994560b9) REAL time: 2 secs 
+(Checksum:994560b9) REAL time: 3 secs 
 
 Phase 5.36  Local Placement Optimization
-Phase 5.36  Local Placement Optimization (Checksum:994560b9) REAL time: 2 secs 
+Phase 5.36  Local Placement Optimization (Checksum:994560b9) REAL time: 3 secs 
 
 Phase 6.30  Global Clock Region Assignment
-Phase 6.30  Global Clock Region Assignment (Checksum:994560b9) REAL time: 2 secs 
+Phase 6.30  Global Clock Region Assignment (Checksum:994560b9) REAL time: 3 secs 
 
 Phase 7.3  Local Placement Optimization
-Phase 7.3  Local Placement Optimization (Checksum:994560b9) REAL time: 2 secs 
+Phase 7.3  Local Placement Optimization (Checksum:994560b9) REAL time: 3 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:994560b9) REAL time: 2 secs 
+Phase 8.5  Local Placement Optimization (Checksum:994560b9) REAL time: 3 secs 
 
 Phase 9.8  Global Placement
 ..
 ..
-Phase 9.8  Global Placement (Checksum:fedde702) REAL time: 2 secs 
+Phase 9.8  Global Placement (Checksum:1332f522) REAL time: 3 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:fedde702) REAL time: 2 secs 
+Phase 10.5  Local Placement Optimization (Checksum:1332f522) REAL time: 3 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:8dc6c6ba) REAL time: 3 secs 
+Phase 11.18  Placement Optimization (Checksum:ba4e7cd2) REAL time: 3 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:8dc6c6ba) REAL time: 3 secs 
+Phase 12.5  Local Placement Optimization (Checksum:ba4e7cd2) REAL time: 3 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:8dc6c6ba) REAL time: 3 secs 
+Phase 13.34  Placement Validation (Checksum:ba4e7cd2) REAL time: 3 secs 
 
 Total REAL time to Placer completion: 3 secs 
 Total CPU  time to Placer completion: 3 secs 
